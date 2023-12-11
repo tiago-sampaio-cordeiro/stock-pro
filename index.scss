@@ -1,0 +1,202 @@
+@import "assets/scss/bootstrap.scss";
+
+.body {
+  background-color: $primary;
+}
+
+.titulo-site {
+  color: $secondary;
+  font-family: $font-family-Kaushan-Script;
+  font-size: 4rem;
+}
+
+.sub-titulo {
+  color: #fff;
+  font-family: $font-family-Kaushan-Script;
+  font-size: clamp(2.25rem, 1.9076rem + 1.5217vw, 3.125rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+.button-submit {
+  font-family: $font-family-molengo;
+  font-weight: $font-weight-normal;
+  color: $white;
+  background-color: $secondary;
+  width: 7rem;
+  height: 2rem;
+}
+
+input {
+  width: 20rem;
+  padding-left: 1rem;
+}
+
+
+
+/*tela bem vindo*/
+
+.bem-vindo {
+  color: #91c5ff;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-family: $font-family-Kaushan-Script;
+}
+
+#nomeCompleto {
+  color: #f3b407;
+  font-size: clamp(1.7775rem, 1.6904rem + 0.387vw, 2rem);
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-family: $font-family-Kaushan-Script;
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 5.0s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+      transform: scale(0.5);
+      opacity: 0;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+.navbar {
+  padding-left: 2rem;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+span {
+  margin-right: 0.5rem;
+}
+
+.nav-item a {
+  margin-right: 2rem;
+  font-family: $font-family-Kaushan-Script;
+}
+
+/*cadastrar itens*/
+
+
+.label {
+  color: #fff;
+  font-family: Kaushan Script;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.button-salvar {
+  font-family: $font-family-molengo;
+  font-weight: $font-weight-normal;
+  color: $white;
+  background-color: $secondary;
+  width: 7rem;
+  height: 2rem;
+}
+
+/*itens em estoque*/
+.titulo-item {
+  color: darkblue;
+  font-family: $font-family-Kaushan-Script;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.descricao {
+  color: darkcyan;
+  font-family: $font-family-Kaushan-Script;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#search-input {
+  width: 10rem;
+}
+
+.search-button-input {
+  font-family: $font-family-molengo;
+  font-weight: $font-weight-normal;
+  background-color: $secondary;
+  width: 5rem;
+  height: 2rem;
+}
+
+.card {
+  background-color: $green-100;
+  min-width: 100%;
+  height: 20rem;
+}
+
+.card-header span {
+  font-size:  clamp(1.04rem, 1.7913rem + -0.9391vw, 1.58rem);
+}
+
+.card-header {
+  min-height: 20%;
+}
+
+
+.card-header h3 {
+  font-size: clamp(1.04rem, 1.7913rem + -0.9391vw, 1.58rem);
+}
+
+/*login*/
+
+.cadastre-se a {
+  color: #d6f5ff;
+  font-family: $font-family-roboto;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+/*cliente*/
+
+.text-label {
+  color: #91c5ff;
+}
+
+/*clientes cadastrados.js*/
+
+
+#card-clientes {
+  background-color: $green-100;
+  min-width: 100%;
+  height: 35rem;
+}
+
+/*clientes-cadastrados*/
+
+.button-cadastrar-cliente {
+  font-family: $font-family-molengo;
+  font-weight: $font-weight-normal;
+  background-color: $secondary;
+  width: 10rem;
+  height: 2rem;
+}
+
+
