@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Molengo&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../index.css">
+    <title>Stock Pro</title>
+  </head>
+  <body class="body">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-lg-center"
+        id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="link-light text-decoration-none" href="tela-bem-vindo.html"
+              ><span><i class="bi bi-file-earmark-bar-graph"></i></span
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="link-light text-decoration-none" href="../index.html"
+              ><span><i class="bi bi-bag"></i></span>Login</a
+          >
+          <li class="nav-item">
+            <a class="link-light text-decoration-none" href="cadastrar-itens.html"
+              ><span><i class="bi bi-plus-circle"></i></span>Cadastrar itens</a
+            >
+          </li>  
+          <li class="nav-item">
+            <a
+              class="link-light text-decoration-none"
+              aria-current="page"
+              href="itens-em-estoque.html"
+              ><span><i class="bi bi-box-seam"></i></span>Itens em estoque</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="link-light text-decoration-none" href="#"
+              ><span><i class="bi bi-truck"></i></span>Fornecedores</a
+            >
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="link-light text-decoration-none" href="clientes-cadastrados.html"
+              ><span><i class="bi bi-person-bounding-box"></i></span>Clientes</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div
+      class="container d-flex flex-column align-items-center"
+      id="site-inteiro"
+    >
+      <div class="imagem-notebook mt-5 mb-5" id="img-notebook">
+        <img
+          src="../assets/resources/images/Online banking on laptop screen.png"
+          alt="notebook com imagens de graficos de resultados"
+        />
+      </div>
+      <h1 class="titulo-site mt-5 mb-5" id="title-site">Stock Pro</h1>
+      <div class="sub-titulo mt-5 mb-5" id="cadastro-item">
+        <h2 class="sub-titulo" id="title-cadastro-item">
+          Cadastrar itens
+        </h2>
+      </div>
+      <form id="form">
+        <fieldset>
+          <div class="label">
+            <label for="nome-item">Nome do item</label>
+          </div>
+          <div class="campo-item">
+            <input
+              type="text"
+              id="nome-item"
+              class="rounded-4"
+              name="item-nome"
+              placeholder="Ex: Mesa de centro, Cadeira Vitoriana"
+            />
+          </div>
+          <div class="label">
+            <label for="tamanho-item">Tamanho</label>
+          </div>
+          <div class="campo-item">
+            <input
+              type="text"
+              id="tamanho-item"
+              class="rounded-4"
+              name="item-tamanho"
+              placeholder="Ex: altura, diâmetro, comprimento"
+            />
+          </div>
+          <div class="label">
+            <label for="cor-item">Cor</label>
+          </div>
+          <div class="campo-item">
+            <input
+              type="text"
+              id="cor-item"
+              class="rounded-4"
+              name="item-cor"
+              placeholder="Ex: Preto, dourada"
+            />
+          </div>
+          <div class="label">
+            <label for="quantidade-item">Quantidade</label>
+          </div>
+          <div class="campo-item-quantidade">
+            <input
+              type="text"
+              id="quantidade-item"
+              class="rounded-4"
+              name="item-quantidade"
+              placeholder="Ex: 2"
+            />
+          </div>
+          <div class="salvar d-flex justify-content-center mt-5 mb-5">
+            <button type="submit" class="button-salvar rounded-4" id="submit">
+              SALVAR
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+  <script src="../assets/resources/scripts/cadastrar-itens.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
